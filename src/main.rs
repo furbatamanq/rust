@@ -1,5 +1,8 @@
+mod arithmetic;
+use arithmetic::{add,display};
 fn main() {
-    println!("Hello, world!");
-    let name = "Sandesh";
-    println!("{}", name);
+    let result: i32 = add(5,4);
+    display(result)
 }
+
+
