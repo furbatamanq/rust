@@ -24,21 +24,21 @@ fn match_day(){
         "sunday" =>{ 
             let  day_num:i32 = 1;
             println!("Today is {day} the {day_num} of week")},
-        "monday" => println!("not nigga"),
+        "monday" => println!("tuesday"),
         "tuesday" =>{
-            println!("not nigga")
+            println!("tuesday")
         }
         "wednesday" => {
-            println!("not nigga")
+            println!("wednesday")
         }
         "thursday" => {
-            println!("not nigga");
+            println!("thursday");
         }
         "friday" =>{
-            println!("not nigga");
+            println!("friday");
         }
         "saturday" =>{
-            println!("not nigga");
+            println!("saturday");
         } 
         _ => {
             println!("put correct input man");
